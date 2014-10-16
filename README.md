@@ -6,4 +6,4 @@ Repositório com código de exemplos para o curso de Introdução à Computaçã
 Compilação:
 -----------
 
-  $ gcc -Wall -ansi -O2 -pedantic file.c -o exec
+  $ gcc -lm -Wall -ansi -O2 -pedantic file.c -o exec
