@@ -15,25 +15,25 @@ bool eImpar(int numero);
 /* Uma função que diz se um número é par */
 bool ePar(int numero)
 {
-	if(numero == 0)
-		return true;
-	else
-		return eImpar(numero-1);
+  if(numero == 0)
+    return true;
+  else
+    return eImpar(numero-1);
 }
 
 /* Uma função que diz se um número é impar */
 bool eImpar(int numero)
 {
-	if(numero==0)
-		return false;
-	else
-		return ePar(numero -1);
+  if(numero==0)
+    return false;
+  else
+    return ePar(numero -1);
 }
 
 int main()
 {
-	int numero;
-	bool resposta;
+  int numero;
+  bool resposta;
 
   /* Pede o número */
   printf("Ingresse um numero: ");
@@ -46,5 +46,5 @@ int main()
   else
     printf("O numero %d é impar\n",numero);
 
-	return 0;
+  return 0;
 }
